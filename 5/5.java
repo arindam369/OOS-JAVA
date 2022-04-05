@@ -49,6 +49,7 @@ class AccountManager{
         bankAccounts[i].accountNumber=0;
         bankAccounts[i].balance=0;
         bankAccounts[i].ownerName="";
+        nextIndex--;
     }
     void deposit(int accNum,int depositingMoney){
         for(int i=0;i<nextIndex;i++){
